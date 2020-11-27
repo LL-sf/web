@@ -1,0 +1,84 @@
+#background {
+  height: 100vh;
+}
+.googleEarth h1 {
+  font-size: 40px;
+  color: teal;
+  text-align: center;
+}
+.googleEarth p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: gray;
+  text-align: center;
+}
+.btn {
+  top: 10px;
+  left: -40px;
+  width: 300px;
+  height: 50px;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0 0 40px 50px;
+}
+.btn a {
+  font-family: arial;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 50px;
+  transition: all 0.5s ease;
+  z-index: 2;
+  position: relative;
+}
+.effect {
+  width: 300px;
+  height: 50px;
+  position: absolute;
+  transition: all 0.5s ease;
+  z-index: 1;
+  box-sizing: border-box;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 70px;
+  color: whitesmoke;
+  width: 50%;
+}
+.googleEarth .btn {
+  margin-top: 30px;
+  border: 2px solid green;
+  left: 40%;
+}
+.googleEarth .btn a {
+  color: blue;
+}
+.googleEarth .effect {
+  border: 0px solid white;
+}
+.googleEarth .btn:hover .effect {
+  border: 70px solid blue;
+}
+.googleEarth .btn:hover a {
+  color: green;
+  font-weight: bold;
+}
+#googleEarth_img {
+  margin: 0 auto;
+  width: 1600px;
+}
+#googleEarth_img img {
+  width: 800px;
+}
+.youtube_VR {
+  background-color: greenyellow;
+}
+/* .youtube_VR h1 img {
+  position: absolute;
+  top: 850px;
+  left: 37%;
+} */
